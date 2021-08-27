@@ -13,7 +13,6 @@ import { useRouter } from "next/router"
 import apiRequest from '../helpers/apiRequest'
 import {
   FaSignInAlt,
-  FaExclamationTriangle
 } from "react-icons/fa";
 import { createFalse } from "typescript";
 
@@ -241,12 +240,17 @@ export default function Home() {
   };
 
   return (
-    <>
-    <div className={"top-menu pve-menu"}>
-        <div className={"container"}>
-          <div className={"menu-items"}>
-            <Button
-              className={" btn-menu2 btn-purple btn-small "}
+    <div
+      style={{
+        backgroundImage: `url(/Beeldmerk_Binnenklimaattechniek_10-2019@2x.png)`,
+        backgroundSize: 750,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "1200px 600px",
+        position: 'relative'
+      }}
+    >
+       <Button
+              className={" btn-menu2 btn-purple btn-small logout-btn"}
               style={{ minWidth: "125px", height: 40 }}
               onClick={() => logOut()}
             >
@@ -266,19 +270,6 @@ export default function Home() {
                 </span>
               </div>
             </Button>
-            &nbsp;
-          </div>
-        </div>
-      </div>
-    <div
-      style={{
-        backgroundImage: `url(/Beeldmerk_Binnenklimaattechniek_10-2019@2x.png)`,
-        backgroundSize: 750,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "1200px 600px",
-        position: 'relative'
-      }}
-    >
       <Container className={"container-line"}>
         <div className={"top-line"}>
           <a href={"/"}>
@@ -316,10 +307,14 @@ export default function Home() {
             </Col>
           </Row>
         </div>
+        <style jsx>{`
+          .dev-note {
+            text-align: right;
+            color: #a7a7a7;
+          }
+        `}</style>
       </Container>
       <Footer />
     </div>
-    
-    </>
   );
 }

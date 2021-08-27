@@ -20,7 +20,7 @@ const ContextAwareToggle = (props) => {
     () => props.callback && props.callback(props.eventKey)
   );
 
-  let categoryLetter = "C";
+  let categoryLetter = "A";
   let color = "#008000";
 
   switch (selectedCategory) {
@@ -36,9 +36,6 @@ const ContextAwareToggle = (props) => {
       categoryLetter = "C";
       color = "#ffd500";
       break;
-    default: 
-      categoryLetter = "Geen selectie";
-      color = "lightgray";
   }
 
   const isCurrentEventKey = currentEventKey === props.eventKey;
@@ -57,7 +54,7 @@ const ContextAwareToggle = (props) => {
         className='float-right rounded-0 py-1 px-3 m-0'
         style={{ backgroundColor: `${color}`, color: "white" }}
       >
-        {categoryLetter !== "Geen selectie" ? "KEUZE GEMAAKT" : ""} &nbsp;&nbsp;
+        KEUZE GEMAAKT &nbsp;&nbsp;
         <strong style={{ fontSize: 21 }}>{categoryLetter}</strong>
       </p>
       {/* // )} */}

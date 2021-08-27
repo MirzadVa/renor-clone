@@ -727,7 +727,7 @@ const category = {
   Klimaat: "",
   Licht: "",
   Geluid: "",
-  Kwaliteit: "",
+  Kwaliteit: "A",
 };
 
 const wizardForm = {

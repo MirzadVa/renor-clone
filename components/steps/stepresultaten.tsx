@@ -194,18 +194,16 @@ const StepResultaten = (props) => {
               </a>
             </p>
           </Col>
-          <Col xs={12} style={{marginTop: '-110px'}}>
-            <p>
+        </Row>
+        <Row>
+          <Col xs={12}>
+            <p className={"note"}>
               Dit PvE kunt u terugvinden bij{" "}
               <span className="tips-title">Mijn PvE’s</span> op de hoofdpagina.
             </p>
           </Col>
-        
-       
-        {/* <Row>
-         
-        </Row> */}
-        
+        </Row>
+        <Row>
           <Col xs={8} className="lock-project-wrapper">
             <Row>
               <Col xs={12}>
@@ -246,7 +244,7 @@ const StepResultaten = (props) => {
                     className={"btn-menu2 btn-big btnclass no-shadow-focus"}
                     variant={""}
                     style={{
-                      width: "85%",
+                      width: "80%",
                       padding: "2px",
                       marginBottom: "10px",
                       color: "white",
@@ -254,7 +252,6 @@ const StepResultaten = (props) => {
                       display: "flex",
                       justifyContent: "space-evenly",
                       alignItems: "center",
-                      borderRadius: '0px'
                     }}
                   >
                     <div className="d-flex justify-content-around align-items-baseline">
@@ -273,12 +270,11 @@ const StepResultaten = (props) => {
                     className={"btn-menu2  btn-big btnclass no-shadow-focus"}
                     variant={""}
                     style={{
-                      width: "85%",
+                      width: "80%",
                       padding: "2px",
                       marginBottom: "10px",
                       color: "white",
                       backgroundColor: "lightgray",
-                      borderRadius: '0px'
                     }}
                   >
                     <div className="d-flex justify-content-around align-items-baseline">
@@ -318,7 +314,7 @@ const StepResultaten = (props) => {
                           "btn-menu2 btn-big btnc lass no-shadow-focus downloadPDF"
                         }
                         style={{
-                          width: "85%",
+                          width: "80%",
                           padding: "2px",
                           marginBottom: "10px",
                           color: "white",
@@ -360,7 +356,7 @@ const StepResultaten = (props) => {
                         : "btn-menu2 btn-big btnclass no-shadow-focus btnDownload"
                     }
                     style={{
-                      width: "85%",
+                      width: "80%",
                       padding: "2px",
                       marginBottom: "10px",
                       color: reqSent ? "white" : "white",

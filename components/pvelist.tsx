@@ -104,14 +104,11 @@ export default function PveList({ numOfLicenses, projects, setProjects }) {
                         <span
                           className="project-name"
                           onClick={() => goToWizard(elem)}
-                          style={{
-                            fontSize: elem.projectnaam.length > 25 ? '10px' : null
-                          }}
                         >
                           {elem.projectnaam}
                         </span>
                       </td>
-                      <td className={"table-td project-gebu"}>{elem.gebouwnaam}</td>
+                      <td className={"table-td"}>{elem.gebouwnaam}</td>
 
                       <td className={"table-td"}>
                         <Button
@@ -120,12 +117,12 @@ export default function PveList({ numOfLicenses, projects, setProjects }) {
                           style={{ marginBottom: "7px" }}
                           onClick={() => goToWizard(elem)}
                         >
-                          <div className='button-container'>
+                          <div className="d-flex justify-content-around">
                             <span className={"btn-label mt-na1"}>
                               <FaEye />
                               &nbsp;
                             </span>
-                            <span className={"btn-text text-btn"}>BEKIJKEN</span>
+                            <span className={"btn-text"}>BEKIJKEN</span>
                           </div>
                         </Button>
                       </td>
@@ -143,12 +140,12 @@ export default function PveList({ numOfLicenses, projects, setProjects }) {
                                 );
                               }}
                             >
-                              <div className='button-container'>
+                              <div className="d-flex justify-content-around">
                                 <span className={"btn-label mt-na1"}>
                                   <FaFilePdf />
                                   &nbsp;
                                 </span>
-                                <span className={"btn-text text-btn"}>
+                                <span className={"btn-text"}>
                                   GENEREER EEN PDF
                                 </span>
                               </div>

@@ -36,13 +36,10 @@ function ThirdTab() {
         Relatie Binnenmilieu-eis met productiviteit & ziekteverzuim
       </h4>
       <p style={{ paddingRight: 80 }}>
-      In onderstaande tabel is weergegeven welke effect het kiezen voor klasse B of A niveau heeft op de productiviteit en het ziekteverzuim van de kantoor- werkers. Het klasse C effect is hierbij op 0 gesteld (= referentieniveau). Indien sprake is van een beperkt positief effect dan is dit aangegeven met ‘+’’; is sprake van een meer significant positief effect dan is dit aangegeven met ‘++’.
-      </p>
-      <p style={{ paddingRight: 80 }}>
-      In de laatste kolom is hier en daar verwezen naar een referentiedocument waarin meer kwalitatief ingegaan wordt op de effecten. Bedoeld wordt daar het document ‘Kentallen binnenmilieu & productiviteit’ dat door BBA Binnenmilieu in 2015 in opdracht van Platform 31 / Kantoor vol Energie is opgesteld.
-      </p>
-      <p style={{ paddingRight: 80 }}>
-      Daar waar gewerkt wordt met een plusteken dat tussen haakjes staat (‘(+)’) geldt dat sprake is van een inschatting door de auteurs van dit document (expert judgement insteek) en dus niet van een wetenschappelijk bewezen effect.
+        Vul op deze pagina de algemene gegevens in over uw project. Indien u dit
+        PvE gezamenlijk met het ontwerpteam of opdrachtgever invult, vul dan de
+        gegevens van één van de teamleden in. De ingevulde gegevens zullen in
+        het definitieve PvE worden opgenomen.
       </p>
       <div className="d-flex my-5 align-items-center">
         <div>
